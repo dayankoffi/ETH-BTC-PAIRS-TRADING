@@ -27,7 +27,7 @@ Pour protéger le capital, trois verrous de sécurité sont implémentés :
 * **Stop-Loss Statistique :** Fermeture automatique de la position si le spread s'écarte de plus de 2.5 écarts-types contre nous.
 * **Time-Stop :** Une limite temporelle de **6 jours** (36 bougies de 4h) est imposée pour éviter d'être piégé dans un trade qui ne converge pas.
 
-## 🛠️ Stack Technique
+##  Stack Technique
 * **Langage :** Python 3.x
 * **Data :** API Binance via CCXT (Données OHLCV 4h).
 * **Analyse :** Pandas, NumPy, Scipy (Stats).
